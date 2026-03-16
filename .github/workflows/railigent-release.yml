@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - master
-    # paths:
-    #   - 'railigent/**'
+    paths:
+      - 'railigent/**'
   workflow_dispatch:
 
 jobs:
