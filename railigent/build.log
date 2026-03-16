@@ -1,0 +1,143 @@
+
+> railigent@0.0.0 build
+> vue-tsc -b && vite build
+
+vite v8.0.0 building client environment for production...
+[2Ktransforming...✓ 443 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                               0.63 kB │ gzip:   0.35 kB
+dist/assets/index-CPDYuwfT.css                              218.45 kB │ gzip:  20.21 kB
+dist/assets/mutation-observer-CX81WQtk-DO36_OEk.js            0.04 kB │ gzip:   0.06 kB
+dist/assets/ix-menu-settings.entry-B1JzOb4j.js                0.11 kB │ gzip:   0.11 kB
+dist/assets/base-icon-button-rBR4ri6c-0lOnmaQT.js             0.16 kB │ gzip:   0.16 kB
+dist/assets/make-ref-bcj7UEIC-807pjPVl.js                     0.16 kB │ gzip:   0.14 kB
+dist/assets/disposable-event-listener-CKoABG1h-Bhi-1PhT.js    0.19 kB │ gzip:   0.15 kB
+dist/assets/requestAnimationFrame-BEuV0Xpe-DJx9uxez.js        0.20 kB │ gzip:   0.12 kB
+dist/assets/ix-flip-tile-content.entry-Cf39wPt4.js            0.29 kB │ gzip:   0.24 kB
+dist/assets/breakpoints-D_Hmobxf-O-nYiLmA.js                  0.32 kB │ gzip:   0.21 kB
+dist/assets/ix-divider.entry-DgQ_zLRV.js                      0.33 kB │ gzip:   0.27 kB
+dist/assets/shadow-dom-i60z1FJC-BCtgY_5D.js                   0.35 kB │ gzip:   0.22 kB
+dist/assets/index-75AAQH08-C8PtVAO9.js                        0.36 kB │ gzip:   0.25 kB
+dist/assets/ix-css-grid-item.entry-Ccg_9au8.js                0.39 kB │ gzip:   0.31 kB
+dist/assets/typed-event-BdCnOrqW-Cvnw2HXB.js                  0.45 kB │ gzip:   0.22 kB
+dist/assets/ix-menu-about-item.entry-DrmgU0GX.js              0.47 kB │ gzip:   0.34 kB
+dist/assets/ix-dropdown-quick-actions.entry-CR-KGfU1.js       0.47 kB │ gzip:   0.33 kB
+dist/assets/ix-menu-settings-item.entry-DfL-4oaQ.js           0.47 kB │ gzip:   0.34 kB
+dist/assets/ix-key-value-list.entry-CEIQY0IB.js               0.56 kB │ gzip:   0.37 kB
+dist/assets/ix-modal-loading.entry-pWr4lJyM.js                0.63 kB │ gzip:   0.44 kB
+dist/assets/picker-input.util-D1uMJUKN-BdWfADW5.js            0.68 kB │ gzip:   0.38 kB
+dist/assets/context-BniHpAE1-ByguBW9g.js                      0.77 kB │ gzip:   0.47 kB
+dist/assets/focus-BAKpVknt-B0CuDkOe.js                        0.85 kB │ gzip:   0.41 kB
+dist/assets/listener-DAJkOQte-DfHLJDoI.js                     0.86 kB │ gzip:   0.44 kB
+dist/assets/find-element-CFRrPFxi-BRXH5WLJ.js                 1.00 kB │ gzip:   0.45 kB
+dist/assets/ix-modal-footer.entry-DW1NAOZ8.js                 1.16 kB │ gzip:   0.51 kB
+dist/assets/helper-text-util-gKdL-wH2-DqOjAbQ0.js             1.18 kB │ gzip:   0.44 kB
+dist/assets/ix-dropdown-header.entry-CLY4Ogiq.js              1.27 kB │ gzip:   0.57 kB
+dist/assets/menu-service-BMvtckRa-CrD-jXFJ.js                 1.38 kB │ gzip:   0.59 kB
+dist/assets/a11y-Bb7pDeaQ-lF26XzPF.js                         1.40 kB │ gzip:   0.70 kB
+dist/assets/base-button-D4FlHdn0-B66_7lRH.js                  1.42 kB │ gzip:   0.70 kB
+dist/assets/ix-custom-field.entry-Dbx_pgB7.js                 1.44 kB │ gzip:   0.77 kB
+dist/assets/ix-application-sidebar.entry-B1rukRIs.js          1.60 kB │ gzip:   0.73 kB
+dist/assets/ix-helper-text.entry-DAZqdhkL.js                  1.63 kB │ gzip:   0.76 kB
+dist/assets/ix-css-grid.entry-CX6pfxUt.js                     1.64 kB │ gzip:   0.78 kB
+dist/assets/ix-content.entry-B4QKK-J1.js                      1.84 kB │ gzip:   0.82 kB
+dist/assets/ix-link-button.entry-Co_TtLKa.js                  1.84 kB │ gzip:   0.84 kB
+dist/assets/ix-layout-auto.entry-CLO42jKB.js                  1.89 kB │ gzip:   0.92 kB
+dist/assets/service-Da0kv8hS-I8oLANsu.js                      1.90 kB │ gzip:   0.85 kB
+dist/assets/ix-content-header.entry-CJW0u7ke.js               1.91 kB │ gzip:   0.93 kB
+dist/assets/validation-LJh16vt2-BqWWtMuQ.js                   1.96 kB │ gzip:   0.78 kB
+dist/assets/ix-key-value.entry-pB5oJpLG.js                    2.13 kB │ gzip:   0.80 kB
+dist/assets/ix-action-card.entry-DK12nUmo.js                  2.20 kB │ gzip:   0.97 kB
+dist/assets/dropdown-controller-D3K9vmFp-B8pWxOqb.js          2.24 kB │ gzip:   0.89 kB
+dist/assets/ix-workflow-steps.entry-Ck7Oe0CG.js               2.38 kB │ gzip:   1.04 kB
+dist/assets/ix-checkbox-group.entry-Bq2INSVG.js               2.51 kB │ gzip:   1.21 kB
+dist/assets/ix-push-card.entry-TL0oCLrV.js                    2.71 kB │ gzip:   0.92 kB
+dist/assets/ix-toast-container.entry-DWxGWjkh.js              3.02 kB │ gzip:   1.24 kB
+dist/assets/ix-tree-item.entry-B7Fbm0Dy.js                    3.07 kB │ gzip:   1.10 kB
+dist/assets/ix-date-time-card.entry-DPPLf8WE.js               3.11 kB │ gzip:   1.19 kB
+dist/assets/ix-event-list.entry-CfpeSISu.js                   3.26 kB │ gzip:   1.33 kB
+dist/assets/ix-modal-content_2.entry-DQJ5h2mx.js              3.32 kB │ gzip:   1.16 kB
+dist/assets/ix-tile.entry-BCCVcnls.js                         3.37 kB │ gzip:   1.28 kB
+dist/assets/ix-split-button.entry-CHj_dhDH.js                 3.40 kB │ gzip:   1.26 kB
+dist/assets/ix-empty-state.entry-CbBcYhbq.js                  3.56 kB │ gzip:   1.13 kB
+dist/assets/input.fc-KJF8Z9iJ-Dxwq5xm3.js                     3.62 kB │ gzip:   1.62 kB
+dist/assets/ix-radio-group.entry-DiWeIlVL.js                  3.69 kB │ gzip:   1.64 kB
+dist/assets/ix-menu-about-news.entry-YT_sfqox.js              3.92 kB │ gzip:   1.67 kB
+dist/assets/ix-kpi.entry-D8tYW_T9.js                          3.98 kB │ gzip:   1.43 kB
+dist/assets/ix-menu-about.entry-BTBlYPML.js                   4.01 kB │ gzip:   0.89 kB
+dist/assets/ix-dropdown-item.entry-CUV93Kis.js                4.20 kB │ gzip:   1.43 kB
+dist/assets/ix-input-group.entry-qut-ybWH.js                  4.22 kB │ gzip:   1.56 kB
+dist/assets/ix-datetime-picker.entry-CEVhvTfc.js              4.26 kB │ gzip:   1.62 kB
+dist/assets/ix-breadcrumb.entry-KDjrA_9U.js                   4.37 kB │ gzip:   1.75 kB
+dist/assets/ix-application-switch-modal.entry-D-68Qq0y.js     4.41 kB │ gzip:   1.93 kB
+dist/assets/ix-drawer.entry-BAZdQI9x.js                       4.48 kB │ gzip:   1.82 kB
+dist/assets/ix-message-bar.entry-xSnZCoZ2.js                  4.71 kB │ gzip:   1.83 kB
+dist/assets/ix-dropdown-button.entry-BPaOYTg2.js              4.75 kB │ gzip:   1.44 kB
+dist/assets/ix-filter-chip_2.entry-DLeB9AEh.js                4.99 kB │ gzip:   1.68 kB
+dist/assets/ix-menu-avatar.entry-Dh57Vf_P.js                  4.99 kB │ gzip:   2.10 kB
+dist/assets/ix-toast.entry-D68Sndit.js                        5.15 kB │ gzip:   1.98 kB
+dist/assets/ix-application.entry-CWVTOaMm.js                  5.18 kB │ gzip:   1.91 kB
+dist/assets/ix-group-context-menu_2.entry-D12ub7lr.js         5.29 kB │ gzip:   1.78 kB
+dist/assets/ix-modal.entry-CH4Yz9Fe.js                        5.52 kB │ gzip:   2.18 kB
+dist/assets/ix-field-label_2.entry-Cn7Lh8bv.js                5.68 kB │ gzip:   2.13 kB
+dist/assets/ix-menu-settings-CG60xQKd-n9uePyRT.js             6.04 kB │ gzip:   1.56 kB
+dist/assets/ix-menu-item.entry-craz-ElT.js                    6.30 kB │ gzip:   2.18 kB
+dist/assets/ix-workflow-step.entry-IHdrh-FH.js                6.44 kB │ gzip:   1.99 kB
+dist/assets/ix-upload.entry-D4HJM20A.js                       6.55 kB │ gzip:   2.37 kB
+dist/assets/ix-date-dropdown.entry-By-rryBp.js                6.73 kB │ gzip:   2.48 kB
+dist/assets/ix-menu-category.entry-BLTrwXn3.js                6.78 kB │ gzip:   2.65 kB
+dist/assets/ix-tooltip.entry-C--dnYt7.js                      6.99 kB │ gzip:   2.66 kB
+dist/assets/ix-validation-tooltip.entry-DrhKIIK9.js           7.18 kB │ gzip:   1.93 kB
+dist/assets/ix-pane-layout.entry-BK8QFNk9.js                  7.45 kB │ gzip:   2.00 kB
+dist/assets/ix-menu-expand-icon.entry-CcSjq4IZ.js             7.59 kB │ gzip:   1.73 kB
+dist/assets/ix-card-list.entry-BfmbOutL.js                    7.66 kB │ gzip:   2.51 kB
+dist/assets/ix-event-list-item.entry-CwpL5uwz.js              7.92 kB │ gzip:   2.00 kB
+dist/assets/ix-group.entry-C3qiIuH5.js                        8.37 kB │ gzip:   2.57 kB
+dist/assets/ix-pill.entry-CBkDwnFZ.js                         8.42 kB │ gzip:   2.00 kB
+dist/assets/ix-progress-indicator.entry-CeVMAaMA.js           9.27 kB │ gzip:   2.28 kB
+dist/assets/ix-avatar_2.entry-D-CZPrRf.js                     9.34 kB │ gzip:   2.56 kB
+dist/assets/ix-dropdown.entry-BEUAksjt.js                     9.71 kB │ gzip:   3.14 kB
+dist/assets/ix-tree.entry-CreQ57K6.js                        10.14 kB │ gzip:   3.71 kB
+dist/assets/ix-card_2.entry-CXyDDuyS.js                      11.24 kB │ gzip:   1.78 kB
+dist/assets/ix-expanding-search.entry-BsOH5zIy.js            11.25 kB │ gzip:   2.45 kB
+dist/assets/ix-flip-tile.entry-CRzYeeH8.js                   11.43 kB │ gzip:   2.50 kB
+dist/assets/ix-card-accordion_2.entry-CR0TRVc2.js            12.76 kB │ gzip:   2.54 kB
+dist/assets/ix-application-header.entry-CpEnauKD.js          13.50 kB │ gzip:   4.59 kB
+dist/assets/ix-blind.entry-Bex6L4iL.js                       13.54 kB │ gzip:   2.64 kB
+dist/assets/ix-slider.entry-Rp6jc6lf.js                      14.18 kB │ gzip:   4.00 kB
+dist/assets/ix-typography.entry-DGoGAohl.js                  14.83 kB │ gzip:   1.52 kB
+dist/assets/ix-chip.entry-BvOwh8Uc.js                        15.59 kB │ gzip:   2.58 kB
+dist/assets/ix-tab-item_2.entry-CxPF---i.js                  15.81 kB │ gzip:   4.62 kB
+dist/assets/ix-pane.entry-CQey8x6v.js                        15.86 kB │ gzip:   4.10 kB
+dist/assets/floating-ui.dom-CAqtPJ4--DCiL3d21.js             18.11 kB │ gzip:   7.05 kB
+dist/assets/ix-input.entry-Cwa7Rtn-.js                       19.15 kB │ gzip:   3.60 kB
+dist/assets/ix-textarea.entry-BwJdWyJl.js                    20.52 kB │ gzip:   3.37 kB
+dist/assets/ix-select.entry-mKLWUXLY.js                      21.06 kB │ gzip:   5.85 kB
+dist/assets/ix-col_4.entry-CCPjDT2c.js                       21.08 kB │ gzip:   5.93 kB
+dist/assets/ix-number-input.entry-5zsqLEkG.js                21.54 kB │ gzip:   4.27 kB
+dist/assets/ix-checkbox.entry-DUPbRmyK.js                    21.81 kB │ gzip:   2.73 kB
+dist/assets/ix-date-input.entry-zYbKdLGX.js                  22.08 kB │ gzip:   4.21 kB
+dist/assets/ix-radio.entry-DNpa0snz.js                       22.15 kB │ gzip:   2.60 kB
+dist/assets/ix-time-input.entry-B1rL2n1q.js                  22.51 kB │ gzip:   4.29 kB
+dist/assets/ix-toggle.entry-z-yoSrKx.js                      25.82 kB │ gzip:   3.13 kB
+dist/assets/anime.esm-DhE1t8Qh-DNQsSg5X.js                   26.25 kB │ gzip:  10.82 kB
+dist/assets/ix-button.entry-BxGDKx64.js                      30.95 kB │ gzip:   3.20 kB
+dist/assets/ix-toggle-button.entry-D_l3ho0v.js               30.96 kB │ gzip:   2.88 kB
+dist/assets/ix-icon-toggle-button.entry-C_FH476k.js          31.51 kB │ gzip:   3.10 kB
+dist/assets/ix-time-picker.entry-B3EJFil1.js                 33.27 kB │ gzip:   6.80 kB
+dist/assets/ix-menu.entry-BEBWXRiH.js                        41.58 kB │ gzip:   8.89 kB
+dist/assets/ix-pagination.entry-Bd_Pdslx.js                  42.30 kB │ gzip:   5.09 kB
+dist/assets/ix-icon-button_2.entry-B_lSE5Qf.js               43.02 kB │ gzip:   3.93 kB
+dist/assets/index-8HpPmDK_-BhbNQWwH.js                       48.30 kB │ gzip:   9.27 kB
+dist/assets/ix-breadcrumb-item.entry-DY4BObHq.js             59.86 kB │ gzip:   4.14 kB
+dist/assets/datetime-bDicGJUN-Coo8nvFe.js                    67.20 kB │ gzip:  21.03 kB
+dist/assets/ix-category-filter.entry-fj2EjOP6.js             68.20 kB │ gzip:   8.09 kB
+dist/assets/index-kU4MjC-f.js                               716.29 kB │ gzip: 174.32 kB
+
+✓ built in 716ms
+[plugin builtin:vite-reporter]
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
