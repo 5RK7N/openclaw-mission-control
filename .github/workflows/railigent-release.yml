@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - master
-    paths:
-      - 'railigent/**'
+    # paths:
+    #   - 'railigent/**'
   workflow_dispatch:
 
 jobs:
@@ -25,10 +25,17 @@ jobs:
           username: ${{ secrets.HARBOR_USERNAME }}
           password: ${{ secrets.HARBOR_PASSWORD }}
 
+      - name: Manual Push Test
+        run: |
+          docker pull busybox
+          docker tag busybox artifacts.railigent.host/hybrid/test-connection:latest
+          docker push artifacts.railigent.host/hybrid/test-connection:latest
+
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
           context: ./railigent
+          file: ./railigent/Dockerfile 
           push: true
           tags: |
             artifacts.railigent.host/hybrid/mission-control-frontend:latest
