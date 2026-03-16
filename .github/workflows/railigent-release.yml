@@ -31,7 +31,7 @@ jobs:
           context: ./railigent
           push: true
           tags: |
-            ${{ secrets.HARBOR_URL }}/hybrid/mission-control-frontend:latest
-            ${{ secrets.HARBOR_URL }}/hybrid/mission-control-frontend:${{ github.sha }}
+            artifacts.railigent.host/hybrid/mission-control-frontend:latest
+            artifacts.railigent.host/hybrid/mission-control-frontend:${{ github.sha }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
